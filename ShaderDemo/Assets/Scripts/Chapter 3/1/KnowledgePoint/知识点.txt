@@ -1,0 +1,6 @@
+通用Shader和UnityShader有区别，UnityShader是通用Shader的上层封装
+在Unity5.2以及以上，Unity提供了4种UnitySHader模板供我们选择
+Standard Surface Shader 会产生一个抱恨了标准光照模型(使用了Unity5中添加的基于物理的渲染方法)的表面着色模板
+Unlit Shader 会产生一个不包含光照(但包含雾效)的基本的顶点/片元着色器
+Image Effect Shader 实现各种屏幕后处理效果提供基本模板
+Compute Shader 会产生一种特殊的Shader文件，这类Shader旨在利用GPU的并行性来进行一些与常规渲染流水线无关的计算
